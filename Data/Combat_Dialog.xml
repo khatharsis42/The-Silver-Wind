@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BattleDialogRoot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Version>1.1</Version>
+  <Character ID="1">
+    <Type ID="START_BATTLE">
+      <BattleDialog ID="0">The air is thick with tension. Time to slice through it</BattleDialog>
+    </Type>
+    <Type ID="BATTLE_VICTORY">
+      <BattleDialog ID="0">The wind guides me to victory, as always.</BattleDialog>
+    </Type>
+    <Type ID="DEATH">
+      <BattleDialog ID="0">I'M GONNA DISTORT</BattleDialog>
+    </Type>
+    <Type ID="COLLEAGUE_DEATH">
+      <BattleDialog ID="0">...</BattleDialog>
+    </Type>
+    <Type ID="KILLS_OPPONENT">
+      <BattleDialog ID="0">:3</BattleDialog>
+    </Type>
+  </Character>
+  <Character ID="2">
+    <Type ID="START_BATTLE">
+      <BattleDialog ID="0">...</BattleDialog>
+    </Type>
+    <Type ID="BATTLE_VICTORY">
+      <BattleDialog ID="0">...</BattleDialog>
+    </Type>
+    <Type ID="DEATH">
+      <BattleDialog ID="0">...</BattleDialog>
+    </Type>
+    <Type ID="COLLEAGUE_DEATH">
+      <BattleDialog ID="0">This place is nuts !</BattleDialog>
+    </Type>
+    <Type ID="KILLS_OPPONENT">
+      <BattleDialog ID="0">...</BattleDialog>
+    </Type>
+  </Character>
+</BattleDialogRoot>

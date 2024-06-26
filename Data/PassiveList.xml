@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PassiveXmlRoot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Passive ID="10971900">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>7</Cost>
+    <Script />
+    <Name>Greater Wind Speed</Name>
+    <Desc>Speed Dice Slot +1. Gain an additional Speed die at Emotion Level III. Upon winning 2
+            clashes using Evade dice, gain an additional Speed die next scene (Once per Scene).
+            Cannot Overlap.</Desc>
+  </Passive>
+  <Passive ID="10971901">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>true</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>9</Cost>
+    <Script />
+    <Name>The Silver Wind</Name>
+    <Desc>Evade dice power + 2.
+            On clash win using evade dice, offensive dice gain +1 power and deal +1 damage until the
+            end of the scene (max 2 / Scene), and gain 1 Haste next scene (max 6 / Scene).</Desc>
+  </Passive>
+  <Passive ID="10971902">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>true</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>4</Cost>
+    <Script />
+    <Name>Fleeting Cloud</Name>
+    <Desc>For every 3 Haste on this character, gain 1 Endurance, Protection, and Stagger
+            protection.</Desc>
+  </Passive>
+  <Passive ID="10971903">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>false</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>10</Cost>
+    <Script />
+    <Name>Furthest Reaches</Name>
+    <Desc>
+            At Emotion Level II, "Unravel" is added to hand, and its Cost is reduced by 3 for the turn.
+            At Emotion Level IV, "Horizon" is added to hand, and its Cost is reduced by 1 for the turn.
+            The pages are also included in the deck at the start of subsequent Acts.
+        </Desc>
+  </Passive>
+  <Passive ID="10971904">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>true</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>7</Cost>
+    <Script />
+    <Name>Active Defense</Name>
+    <Desc> Gain a Counter die (4-8 Evade) at combat start. All Evade Counter dice gain "On Clash
+            Win, inflict 1 Brand".</Desc>
+  </Passive>
+  <Passive ID="10971905">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>true</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>9</Cost>
+    <Script />
+    <Name>Purified Soul</Name>
+    <Desc>Maximum Light capacity +1.
+            When using a combat page involving Light, restore 1 Light and all dice on this page gain
+            +1 power.
+        </Desc>
+  </Passive>
+  <!-- Boss Only -->
+  <Passive ID="10971906">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>true</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>0</Cost>
+    <Script />
+    <Name>Æolus</Name>
+    <Desc>Speed Dice +2. Gain an additional Speed Dice at emotion level II and V. After an ally dies, gain a speed dice,+2 max light, +1 draw and +2 light per turn for the rest of the Reception.</Desc>
+  </Passive>
+  <Passive ID="10971907">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>true</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>9</Cost>
+    <Script />
+    <Name>The Silver Wind</Name>
+    <Desc>Evade dice power + 2.
+            On clash win using evade dice, offensive dice gain +1 power and deal +1 damage until the
+            end of the scene (max 3 / Scene), and gain 1 Haste next scene (max 6 / Scene).</Desc>
+  </Passive>
+  <Passive ID="10971908">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>false</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>10</Cost>
+    <Script />
+    <Name>Furthest Reaches</Name>
+    <Desc />
+  </Passive>
+  <Passive ID="10971910">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>true</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>5</Cost>
+    <Script />
+    <Name>Wind Speed</Name>
+    <Desc>Speed Dice Slot + 1. 
+            After winning 2 Clashes using Evade dice, gain an extra Speed die next scene (Once per Scene).
+            Cannot Overlap.
+        </Desc>
+  </Passive>
+  <!-- Anemoi Passives -->
+  <Passive ID="10971911">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>true</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>6</Cost>
+    <Script />
+    <Name>Anemoi</Name>
+    <Desc>Evade Dice Power + 1. The first Offensive die after an Evade die gains +1 Power and deals +2 damage.</Desc>
+  </Passive>
+  <Passive ID="10971912">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>true</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>9</Cost>
+    <Script />
+    <Name>Intangible</Name>
+    <Desc>Halve all stacks of ailment received (rounded up).</Desc>
+  </Passive>
+  <Passive ID="10971913">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>true</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>9</Cost>
+    <Script />
+    <Name>Purified Soul</Name>
+    <Desc>Maximum Light capacity +1.
+            When using a Combat Page involving Light, restore 1 Light and all dice on this page gain +1 Power.</Desc>
+  </Passive>
+  <!-- Boss Only -->
+  <Passive ID="10971914">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>true</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>0</Cost>
+    <Script />
+    <Name>Zephyr</Name>
+    <Desc>
+            While alive, all allies deal +2 damage.
+            This effect is increased to +3 at Emotion Level III, and +4 at Emotion Level V.</Desc>
+  </Passive>
+  <Passive ID="10971915">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>true</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>0</Cost>
+    <Script />
+    <Name>Boreas</Name>
+    <Desc>
+            While alive, each ally gets one of +2 Endurance, +2 Strength, +2 Protection or Stagger Protection
+            At Emotion level IV and above, each ally get two effects instead.</Desc>
+  </Passive>
+  <Passive ID="10971916">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>true</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>0</Cost>
+    <Script />
+    <Name>Eurus</Name>
+    <Desc>When gaining light through Combat Pages, also give the effect to 1 random ally, then to 1 more random ally per Emotion Level.</Desc>
+  </Passive>
+  <Passive ID="10971917">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>true</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>0</Cost>
+    <Script />
+    <Name>Notos</Name>
+    <Desc>When drawing a page through Combat Pages, also give the effect to 1 random ally, then to 1 more random ally per Emotion Level.</Desc>
+  </Passive>
+</PassiveXmlRoot>

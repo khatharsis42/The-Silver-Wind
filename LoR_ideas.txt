@@ -1,0 +1,145 @@
+Limited | Impurity
+# Cost - Name
+Range: Melee
+*If applicable put DiceCardSelf Ability here
+#~# Dice Type *If applicable, put the DiceCardAbility here
+#~# Dice Type *If applicable, put the DiceCardAbility here
+
+
+---------------/// Combat pages ///------------------------
+//Support pages
+Limited | Impurity
+1 Cost - Supporting Gust
+Range: Melee
+On Use : restore 1 Light to a random ally (energy1ally)
+4~7 Slash *On Hit, restore 2 Lights (energy2atk)
+
+Limited | Impurity
+2 Cost - Supporting Wind
+Range: Melee
+On Use : restore 1 Light to 2 random allies (energy1ally2)
+4~7 Slash 
+5~7 Evade *On Clash Win, draw 1 Page (one time) (clashdraw1_1)
+
+Limited | Impurity
+3 Cost - Supporting Gale
+Range: Melee
+On Use : restore 1 Light to 2 random allies, a random ally draw a page
+4~7 Slash 
+5~7 Evade *On Clash Win, draw 1 Page (one time)
+3~5 Slash *On Hit, restore 1 Light
+
+
+//General pages
+Objet d'Art | Impurity
+0 Cost - Retention
+Range: On Play
+On Use : Next scene, return the first combat page played this scene to hand (excluding On-play, Single-Use, EGO and character-specific pages)
+
+Objet d'Art | Impurity
+1 Cost - Swallow Steps
+Range: Melee
+Single Use
+On use : Gain 1 Strength this scene. Evade dice gain 1 power until the end of the act (Cannot stack). 
+7~10 Evade
+
+Limited | Impurity
+Limited | Impurity
+2 Cost - Gathering Light
+Range: Melee
+Combat Start : this scene, restore 1 light on hit, once per combat page.
+On Use : Draw 1 page
+4~6 Pierce 
+4~7 Block
+
+Hardcover | Impurity
+3 Cost - Nimbus Slash
+Range: Melee
+Combat Start : gain 1 Strength and Endurance next scene
+If all dice on this page activate their effect, gain 1 Strength and Endurance next scene
+6~9 Slash Counter *On Clash Win, gain  Strenght next scene (one time)
+5~9 Evade Counter *On Clash Win, gain 1 Endurance next scene (one time)
+
+Hardcover | Impurity
+3 Cost - Biting Gale
+Range: Melee
+If 12 or more damage was dealt with this page, draw 1 Page and restore 1 Light
+7~9 Slash 
+5~10 Evade *On Clash Win, deals 2 damage and roll the last dice on this page one more time
+1~3 Slash *On Hit, deals 2 damage
+
+
+///The Silver Wind - Exclusive
+
+Limited | Impurity
+1 Cost - Brand
+Range: Melee
+If 5 or more damge was dealt with this page, inflict 1 Brand and return this page to hand
+4~6 Evade 
+4~6 Slash *On Hit, deals 3 damage
+
+[Brand (status effect) : defensive dice lose 1 power, take 10% more damage; last until removed, stacks up to 5 times]
+
+
+/// Special (get added at emo II then IV)
+Objet d'art | Impurity
+6 Cost - Unravel
+Range: Melee
+(player version : This page must be played in a clash)
+This page is exhausted on use and return to hand after 4 scenes, with its cost permanently reduced by 1.
+5~8 Evade *On Clash Lose, destroy the last dice on this page
+5~9 Evade **On Clash Lose, destroy the last dice on this page
+9~15 Slash *On Hit,lower all non-immune resistances by one stage next scene
+
+Objet d'art | Impurity
+6 Cost - Horizon
+Range: Ranged
+This page is exhausted on use and return to hand after 4 scenes, with its cost permanently reduced by 1.
+30~30 Slash *On Hit, deals the damage to every enemy with Brand, then remove all stacks of Brand.
+-----------------/// Key Page /// -----------------
+
+The Silver Wind (boss)
+Objet d'Art | Impurity
+HP: 105 (600)
+SR: 57  (300)
+Speed Die: 3~7 ( 3~8 )
+Slash vs HP : Normal  | vs SR: Normal
+Pierce vs HP: Endured | vs SR: Endured
+Blunt vs HP : Normal  | vs SR: Normal
+Starting Light: 4 (boss : 6)
+7 [Greater Wind Speed ] Speed Dice +1. Gain an additional Speed Dice at emotion level III. Upon winning 2 clashes using Evade dice, gain an additional Speed Dice next scene (once per scene). Cannot stack
+9 [The Silver Wind] Evade dice power + 2. 
+On clash win using evade dice, offensive dice gain +1 power and deal +1 damage until the end of the scene (twice per scene //3 times for boss version), and gain 1 Haste next scene (6 times per scene).
+4 [Fleeting Cloud] For every 3 Haste on this character, gain 1 Endurance, Protection, and Stagger protection.
+10 [Furthest reaches] At emotion level II add a special card to EGO hand, reduce it's cost by 3 for the turn. At emotion level IV, add another one (also reduce it's cost for the turn)  //unattributable
+7 [Active Defense] Gain a Counter die (4-8 Evade) at combat start. All Evade Counter dice gain "On Clash Win, inflict 1 Brand".
+9 [Purified Soul] Maximum Light capacity +1. When using a combat page involving Light, restore 1 Light and all dice on this page gain +1 power
+/// Boss fight exclusive
+[ Aeolus ] Speed Dice +2. Gain an additional Speed Dice at emotion level II and V. After an ally dies, gain a speed dice,+2 max light, +1 draw and +2 light per turn for the rest of the Reception. (Replace Greater Wind Speed)
+
+
+Anemoi 
+Limited | Impurity
+HP: 99 (200)
+SR: 53 (100)
+Speed Die: 4~7
+Slash vs HP : Endured  | vs SR: Normal
+Pierce vs HP: Normal | vs SR: Endured
+Blunt vs HP : Normal  | vs SR: Normal
+Starting Light: 4
+5 [Wind Speed] Speed dice + 1. After winning 2( or3, need testing) Clashes using Evade dice, gain an extra Speed Dice next scene (once per scene)
+5 [Anemoi] Evade dice power + 1; the first offensive dice after an evade dice gain +1 power and deal +2 damage.
+? [Intangible] Halve all stacks of ailment received (rounded up).
+9 [Purified Soul] Maximum Light capacity +1. When using a combar page involving Light, restore 1 Light and all dice on this page gain +1 power
+/// Fight exclusive 
+-- (each add has one of the following passive)
+[Zephyr] While alive, all allies deal +2 damage. At Emotion level III, increase the effect to +3 damage. At Emotion level V, further increase the effect to +4 damage.
+[Boreas] While alive, each ally get one of +2 Endurance, +2 Strength, +2 Protection/Stagger Protection. At Emotion level IV, each ally get two effects instead.
+[Eurus] When gaining light through Combat Pages, also give the effect to 1 random ally, then to 1 more random ally per Emotion Level.
+[Notos] When drawing a page through Combat Pages, also give the effect to 1 random ally, then to 1 more random ally per Emotion Level.
+
+
+
+# [Passive Name] Passive Description
+
+
