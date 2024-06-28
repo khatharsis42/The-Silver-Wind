@@ -19,15 +19,15 @@ Limited | Impurity
 Range: Melee
 On Use : restore 1 Light to 2 random allies (energy1ally2)
 4~7 Slash 
-5~7 Evade *On Clash Win, draw 1 Page (one time) (clashdraw1_1)
+5~7 Evade *On Clash Win, draw 1 Page (one time) (clashdraw1_max1)
 
 Limited | Impurity
 3 Cost - Supporting Gale
 Range: Melee
-On Use : restore 1 Light to 2 random allies, a random ally draw a page
+On Use : restore 1 Light to 2 random allies, a random ally draw a page (energy1ally2_draw1ally)
 4~7 Slash 
-5~7 Evade *On Clash Win, draw 1 Page (one time)
-3~5 Slash *On Hit, restore 1 Light
+5~7 Evade *On Clash Win, draw 1 Page (one time) clashdraw1_max1
+3~5 Slash *On Hit, restore 1 Light energy1atk
 
 
 //General pages
@@ -44,7 +44,6 @@ On use : Gain 1 Strength this scene. Evade dice gain 1 power until the end of th
 7~10 Evade
 
 Limited | Impurity
-Limited | Impurity
 2 Cost - Gathering Light
 Range: Melee
 Combat Start : this scene, restore 1 light on hit, once per combat page.
@@ -55,28 +54,35 @@ On Use : Draw 1 page
 Hardcover | Impurity
 3 Cost - Nimbus Slash
 Range: Melee
-Combat Start : gain 1 Strength and Endurance next scene
+Combat Start : gain 1 Strength and Endurance next scene nimbusSlash
 If all dice on this page activate their effect, gain 1 Strength and Endurance next scene
-6~9 Slash Counter *On Clash Win, gain  Strenght next scene (one time)
-5~9 Evade Counter *On Clash Win, gain 1 Endurance next scene (one time)
+6~9 Slash Counter *On Clash Win, gain  Strenght next scene (one time) clashstr1_max1
+5~9 Evade Counter *On Clash Win, gain 1 Endurance next scene (one time) clashsend1_max1
 
 Hardcover | Impurity
 3 Cost - Biting Gale
 Range: Melee
 If 12 or more damage was dealt with this page, draw 1 Page and restore 1 Light
 7~9 Slash 
-5~10 Evade *On Clash Win, deals 2 damage and roll the last dice on this page one more time
+5~10 Evade *On Clash Win, deals 2 damage and roll the last dice on this page one more time. bitingGaleEvade2
 1~3 Slash *On Hit, deals 2 damage
 
 
 ///The Silver Wind - Exclusive
 
-Limited | Impurity
+1 Cost - Brand
+Range: Melee
+If 5 or more damge was dealt with this page, inflict 1 Brand and return this page to hand
+**If target already has 5 Brand, inflict 2 brands to another random target**
+4~6 Evade 
+4~6 Slash *On Hit, deals 3 damage damage3atk
+
 1 Cost - Brand
 Range: Melee
 If 5 or more damge was dealt with this page, inflict 1 Brand and return this page to hand
 4~6 Evade 
 4~6 Slash *On Hit, deals 3 damage
+**4~6 Evade Counter**
 
 [Brand (status effect) : defensive dice lose 1 power, take 10% more damage; last until removed, stacks up to 5 times]
 

@@ -8,12 +8,13 @@
     <Rarity>Rare</Rarity>
     <Spec Range="Near" Cost="1" Affection="One" EmotionLimit="0" />
     <Script>energy1ally</Script>
-    <ScriptDesc>[On Use]: Restor 1 Light to a random ally.</ScriptDesc>
+    <ScriptDesc>[On Use]: Restore 1 Light to a random ally.</ScriptDesc>
     <BehaviourList>
       <Behaviour Min="4" Dice="7" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="" Script="energy2atk" ActionScript="" Desc="" />
     </BehaviourList>
     <Chapter>7</Chapter>
   </Card>
+
   <Card ID="2">
     <Name>Supporting Wind</Name>
     <TextId>-1</TextId>
@@ -21,12 +22,15 @@
     <Rarity>Rare</Rarity>
     <Spec Range="Near" Cost="2" Affection="One" EmotionLimit="0" />
     <Script>energy1ally2</Script>
+  
+    <ScriptDesc>[On Use]: Restore 1 Light to 2 random allies.</ScriptDesc>
     <BehaviourList>
       <Behaviour Min="4" Dice="7" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="" Script="" ActionScript="" Desc="" />
-      <Behaviour Min="5" Dice="7" Type="Def" Detail="Evasion" Motion="E" MotionDefault="N" EffectRes="" Script="clashdraw1_1" ActionScript="" Desc="" />
+      <Behaviour Min="5" Dice="7" Type="Def" Detail="Evasion" Motion="E" MotionDefault="N" EffectRes="" Script="clashdraw1_max1" ActionScript="" Desc="[On Clash Win]: Draw 1 Page (1 time)." />
     </BehaviourList>
     <Chapter>7</Chapter>
   </Card>
+
   <Card ID="3">
     <Name>Supporting Gale</Name>
     <TextId>-1</TextId>
@@ -34,27 +38,28 @@
     <Rarity>Rare</Rarity>
     <Spec Range="Near" Cost="3" Affection="One" EmotionLimit="0" />
     <Script>energy1ally2_draw1ally </Script>
-    <ScriptDesc />
+    <ScriptDesc>[On Use]: Restore 1 Light to 2 random allies. A random ally draws a page.</ScriptDesc>
     <BehaviourList>
       <Behaviour Min="4" Dice="7" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="" Script="" ActionScript="" Desc="" />
-      <Behaviour Min="5" Dice="7" Type="Def" Detail="Evasion" Motion="E" MotionDefault="N" EffectRes="" Script="clashdraw1_1" ActionScript="" Desc="" />
-      <Behaviour Min="3" Dice="5" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="" Script="energy1atk" ActionScript="" Desc="" />
+      <Behaviour Min="5" Dice="7" Type="Def" Detail="Evasion" Motion="E" MotionDefault="N" EffectRes="" Script="clashdraw1_max1" ActionScript="" Desc="[On Clash Win]: Draw 1 Page (1 time)." />
+      <Behaviour Min="3" Dice="5" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="" Script="energy1atk" ActionScript="" Desc="[On Hit]: Restore 1 Light." />
     </BehaviourList>
     <Chapter>7</Chapter>
   </Card>
+
   <Card ID="4">
     <Name>Retention</Name>
     <TextId>-1</TextId>
     <Artwork />
     <Rarity>Unique</Rarity>
-    <Spec Range="Near" Cost="1" Affection="One" EmotionLimit="0" />
-    <Script>energy1</Script>
-    <ScriptDesc />
-    <BehaviourList>
-      <Behaviour Min="1" Dice="99" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="" Script="" ActionScript="" Desc="" />
-    </BehaviourList>
+    <Spec Range="On Play" Cost="0" Affection="One" EmotionLimit="0" />
+    <Script>retention</Script>
+    <ScriptDesc>[On Use]: Next scene, return the first combat page played this scene to hand (excluding On-play, Single-Use, EGO and character-specific pages).
+    </ScriptDesc>
+    <BehaviourList />
     <Chapter>7</Chapter>
   </Card>
+
   <Card ID="5">
     <Name>Swallow Steps</Name>
     <TextId>-1</TextId>
@@ -62,120 +67,99 @@
     <Rarity>Unique</Rarity>
     <Option>ExhaustOnUse</Option>
     <Spec Range="Near" Cost="1" Affection="One" EmotionLimit="0" />
-    <Script />
-    <ScriptDesc />
+    <Script>swallowSteps</Script>
+    <ScriptDesc>[On Use]: Gain 1 Strength this scene. Evade dice gain 1 power until the end of the act (Cannot stack). 
+    </ScriptDesc>
     <BehaviourList>
-      <Behaviour Min="7" Dice="10" Type="Def" Detail="Evasion" Motion="E" MotionDefault="N" EffectRes="" Script="swallowSteps" ActionScript="" Desc="" />
+      <Behaviour Min="7" Dice="10" Type="Def" Detail="Evasion" Motion="E" MotionDefault="N" EffectRes="" Script="" ActionScript="" Desc="" />
     </BehaviourList>
     <Chapter>7</Chapter>
-    <SpecialEffect />
-    <SkinChange />
-    <SkinChangeType>EGO</SkinChangeType>
-    <SkinHeight>0</SkinHeight>
-    <MapChange />
-    <Priority>0</Priority>
-    <PriorityScript />
-    <Category>None</Category>
-    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
-    <MaxNum>150</MaxNum>
   </Card>
+
   <Card ID="6">
     <Name>Gathering Light</Name>
     <TextId>-1</TextId>
     <Artwork />
     <Rarity>Unique</Rarity>
     <Spec Range="Near" Cost="2" Affection="One" EmotionLimit="0" />
-    <Script>drawCard</Script>
-    <ScriptDesc />
+    <Script>gatheringLight</Script>
+    <ScriptDesc>
+      [Combat Start] : This scene, restore 1 light on hit, once per combat page.
+      [On Use] : Draw 1 page
+    </ScriptDesc>
     <BehaviourList>
       <Behaviour Min="4" Dice="6" Type="Atk" Detail="Penetrate" Motion="Z" MotionDefault="N" EffectRes="" Script="" ActionScript="" Desc="" />
       <Behaviour Min="4" Dice="7" Type="Def" Detail="Guard" Motion="G" MotionDefault="N" EffectRes="" Script="" ActionScript="" Desc="" />
     </BehaviourList>
     <Chapter>7</Chapter>
-    <SpecialEffect />
-    <SkinChange />
-    <SkinChangeType>EGO</SkinChangeType>
-    <SkinHeight>0</SkinHeight>
-    <MapChange />
-    <Priority>0</Priority>
-    <PriorityScript />
-    <Category>None</Category>
-    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
-    <MaxNum>150</MaxNum>
   </Card>
+
   <Card ID="7">
     <Name>Nimbus Slash</Name>
     <TextId>-1</TextId>
     <Artwork />
     <Rarity>Unique</Rarity>
     <Spec Range="Near" Cost="3" Affection="One" EmotionLimit="0" />
-    <Script />
-    <ScriptDesc />
+    <Script>nimbusSlash</Script>
+    <ScriptDesc>[Combat Start]: gain 1 Strength and Endurance next scene
+      If all dice on this page activate their effect, gain 1 Strength and Endurance next scene
+    </ScriptDesc>
     <BehaviourList>
-      <Behaviour Min="6" Dice="9" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="" Script="" ActionScript="" Desc="" />
-      <Behaviour Min="5" Dice="9" Type="Def" Detail="Evasion" Motion="E" MotionDefault="N" EffectRes="" Script="" ActionScript="" Desc="" />
+      <Behaviour Min="6" Dice="9" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="" Script="clashstr1_max1" ActionScript="" Desc="[On Clash Win]: Gain 1 Strenght next scene (max 1)." />
+      <Behaviour Min="5" Dice="9" Type="Def" Detail="Evasion" Motion="E" MotionDefault="N" EffectRes="" Script="clashsend1_max1" ActionScript="" Desc="[On Clash Win]: Gain 1 Endurance next scene (max 1)." />
     </BehaviourList>
     <Chapter>7</Chapter>
-    <SpecialEffect />
-    <SkinChange />
-    <SkinChangeType>EGO</SkinChangeType>
-    <SkinHeight>0</SkinHeight>
-    <MapChange />
-    <Priority>0</Priority>
-    <PriorityScript />
-    <Category>None</Category>
-    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
-    <MaxNum>150</MaxNum>
   </Card>
+
   <Card ID="8">
     <Name>Biting Gale</Name>
     <TextId>-1</TextId>
     <Artwork />
     <Rarity>Unique</Rarity>
     <Spec Range="Near" Cost="3" Affection="One" EmotionLimit="0" />
-    <Script />
-    <ScriptDesc />
+    <Script>bitingGale</Script>
+    <ScriptDesc>If 12 or more damage was dealt with this page, draw 1 Page and restore 1 Light.</ScriptDesc>
     <BehaviourList>
       <Behaviour Min="6" Dice="9" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="" Script="" ActionScript="" Desc="" />
-      <Behaviour Min="5" Dice="10" Type="Def" Detail="Evasion" Motion="E" MotionDefault="N" EffectRes="" Script="" ActionScript="" Desc="" />
+      <Behaviour Min="5" Dice="10" Type="Def" Detail="Evasion" Motion="E" MotionDefault="N" EffectRes="" Script="" ActionScript="bitingGaleEvade2" Desc="[On Clash Win]: Deal 2 damage and roll the last dice on this page one more time." />
       <Behaviour Min="1" Dice="3" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="" Script="damage2atk" ActionScript="" Desc="" />
     </BehaviourList>
     <Chapter>7</Chapter>
-    <SpecialEffect />
-    <SkinChange />
-    <SkinChangeType>EGO</SkinChangeType>
-    <SkinHeight>0</SkinHeight>
-    <MapChange />
-    <Priority>0</Priority>
-    <PriorityScript />
-    <Category>None</Category>
-    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
-    <MaxNum>150</MaxNum>
   </Card>
+
   <Card ID="9">
     <Name>Brand</Name>
     <TextId>-1</TextId>
     <Artwork />
     <Rarity>Unique</Rarity>
     <Spec Range="Near" Cost="1" Affection="One" EmotionLimit="0" />
-    <Script />
-    <ScriptDesc />
+    <Script>brand</Script>
+    <ScriptDesc>
+      If 5 or more damge was dealt with this page, inflict 1 Brand and return this page to hand.
+      If target already has 5 Brand, inflict 2 brands to another random target
+    </ScriptDesc>
     <BehaviourList>
       <Behaviour Min="4" Dice="6" Type="Def" Detail="Evasion" Motion="E" MotionDefault="N" EffectRes="" Script="" ActionScript="" Desc="" />
-      <Behaviour Min="4" Dice="6" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="" Script="" ActionScript="" Desc="" />
+      <Behaviour Min="4" Dice="6" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="" Script="" ActionScript="damage3atk" Desc="[On Hit]: Deal 3 damage." />
     </BehaviourList>
     <Chapter>7</Chapter>
-    <SpecialEffect />
-    <SkinChange />
-    <SkinChangeType>EGO</SkinChangeType>
-    <SkinHeight>0</SkinHeight>
-    <MapChange />
-    <Priority>0</Priority>
-    <PriorityScript />
-    <Category>None</Category>
-    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
-    <MaxNum>150</MaxNum>
   </Card>
+  <Card ID="99">
+    <Name>Brand 2</Name>
+    <TextId>-1</TextId>
+    <Artwork />
+    <Rarity>Unique</Rarity>
+    <Spec Range="Near" Cost="1" Affection="One" EmotionLimit="0" />
+    <Script>brand2</Script>
+    <ScriptDesc>If 5 or more damge was dealt with this page, inflict 1 Brand and return this page to hand.</ScriptDesc>
+    <BehaviourList>
+      <Behaviour Min="4" Dice="6" Type="Def" Detail="Evasion" Motion="E" MotionDefault="N" EffectRes="" Script="" ActionScript="" Desc="" />
+      <Behaviour Min="4" Dice="6" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="" Script="" ActionScript="damage3atk" Desc="[On Hit]: Deal 3 damage." />
+      <Behaviour Min="4" Dice="6" Type="Def" Detail="Standby" Motion="E" MotionDefault="N" EffectRes="" Script="" ActionScript="" Desc="" />
+    </BehaviourList>
+    <Chapter>7</Chapter>
+  </Card>
+
   <Card ID="10">
     <Name>Unravel</Name>
     <TextId>-1</TextId>
@@ -201,6 +185,7 @@
     <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
     <MaxNum>150</MaxNum>
   </Card>
+
   <Card ID="11">
     <Name>Horizon</Name>
     <TextId>-1</TextId>
