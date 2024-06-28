@@ -5,7 +5,7 @@ Modded reception for Library of Ruina
 - [ ] XML:
     - [x] Enemy Key Pages
     - [ ] Key Pages
-    - [ ] Cards
+    - [x] Cards
     - [ ] Reception
 - [ ] Code:
     - [ ] Passives

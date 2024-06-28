@@ -93,8 +93,8 @@ Objet d'art | Impurity
 Range: Melee
 (player version : This page must be played in a clash)
 This page is exhausted on use and return to hand after 4 scenes, with its cost permanently reduced by 1.
-5~8 Evade *On Clash Lose, destroy the last dice on this page
-5~9 Evade **On Clash Lose, destroy the last dice on this page
+5~8 Evade *On Clash Lose, reduce the maximum roll of the last die by 3
+5~9 Evade **On Clash Lose, reduce the maximum roll of the last die by 3
 9~15 Slash *On Hit,lower all non-immune resistances by one stage next scene
 
 Objet d'art | Impurity
