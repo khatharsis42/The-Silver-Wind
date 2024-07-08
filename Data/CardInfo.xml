@@ -2,14 +2,14 @@
 <DiceCardXmlRoot xmlns:xsd="http://www.w3.org/2001/XMLSchema"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Version>1.1</Version>
-  <Card ID="1">
+  <Card ID="1097191">
     <Name>Supporting Gust</Name>
     <TextId>-1</TextId>
     <Artwork />
     <Rarity>Rare</Rarity>
     <Spec Range="Near" Cost="1" Affection="One" EmotionLimit="0" />
     <Script>energy1ally</Script>
-    <ScriptDesc>[On Use]: Restore 1 Light to a random ally.</ScriptDesc>
+    <ScriptDesc/>
     <BehaviourList>
       <Behaviour Min="4" Dice="7" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N"
         EffectRes="" Script="energy2atk" ActionScript="" Desc="" />
@@ -17,15 +17,14 @@
     <Chapter>7</Chapter>
   </Card>
 
-  <Card ID="2">
+  <Card ID="1097192">
     <Name>Supporting Wind</Name>
     <TextId>-1</TextId>
     <Artwork />
     <Rarity>Rare</Rarity>
     <Spec Range="Near" Cost="2" Affection="One" EmotionLimit="0" />
     <Script>energy1ally2</Script>
-
-    <ScriptDesc>[On Use]: Restore 1 Light to 2 random allies.</ScriptDesc>
+    <ScriptDesc/>
     <BehaviourList>
       <Behaviour Min="4" Dice="7" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N"
         EffectRes="" Script="" ActionScript="" Desc="" />
@@ -36,7 +35,7 @@
     <Chapter>7</Chapter>
   </Card>
 
-  <Card ID="3">
+  <Card ID="1097193">
     <Name>Supporting Gale</Name>
     <TextId>-1</TextId>
     <Artwork />
@@ -56,12 +55,12 @@
     <Chapter>7</Chapter>
   </Card>
 
-  <Card ID="4">
+  <Card ID="1097194">
     <Name>Retention</Name>
     <TextId>-1</TextId>
     <Artwork />
     <Rarity>Unique</Rarity>
-    <Spec Range="On Play" Cost="0" Affection="One" EmotionLimit="0" />
+    <Spec Range="Near" Cost="0" Affection="One" EmotionLimit="0" />
     <Script>retention</Script>
     <ScriptDesc>[On Use]: Next scene, return the first combat page played this scene to hand
       (excluding On-play, Single-Use, EGO and character-specific pages).
@@ -70,7 +69,7 @@
     <Chapter>7</Chapter>
   </Card>
 
-  <Card ID="5">
+  <Card ID="1097195">
     <Name>Swallow Steps</Name>
     <TextId>-1</TextId>
     <Artwork />
@@ -88,7 +87,7 @@
     <Chapter>7</Chapter>
   </Card>
 
-  <Card ID="6">
+  <Card ID="1097196">
     <Name>Gathering Light</Name>
     <TextId>-1</TextId>
     <Artwork />
@@ -108,7 +107,7 @@
     <Chapter>7</Chapter>
   </Card>
 
-  <Card ID="7">
+  <Card ID="1097197">
     <Name>Nimbus Slash</Name>
     <TextId>-1</TextId>
     <Artwork />
@@ -129,7 +128,7 @@
     <Chapter>7</Chapter>
   </Card>
 
-  <Card ID="8">
+  <Card ID="1097198">
     <Name>Biting Gale</Name>
     <TextId>-1</TextId>
     <Artwork />
@@ -149,7 +148,7 @@
     <Chapter>7</Chapter>
   </Card>
 
-  <Card ID="9">
+  <Card ID="1097199">
     <Name>Brand</Name>
     <TextId>-1</TextId>
     <Artwork />
@@ -168,7 +167,7 @@
     </BehaviourList>
     <Chapter>7</Chapter>
   </Card>
-  <Card ID="10">
+  <Card ID="10971910">
     <Name>Brand 2</Name>
     <TextId>-1</TextId>
     <Artwork />
@@ -182,13 +181,13 @@
         EffectRes="" Script="" ActionScript="" Desc="" />
       <Behaviour Min="4" Dice="6" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N"
         EffectRes="" Script="" ActionScript="damage3atk" Desc="[On Hit]: Deal 3 damage." />
-      <Behaviour Min="4" Dice="6" Type="Def" Detail="Standby" Motion="E" MotionDefault="N"
+      <Behaviour Min="4" Dice="6" Type="Def" Detail="Slash" Motion="E" MotionDefault="N"
         EffectRes="" Script="" ActionScript="" Desc="" />
     </BehaviourList>
     <Chapter>7</Chapter>
   </Card>
 
-  <Card ID="11">
+  <Card ID="10971911">
     <Name>Unravel</Name>
     <TextId>-1</TextId>
     <Artwork />
@@ -212,7 +211,7 @@
     <Chapter>7</Chapter>
   </Card>
 
-  <Card ID="12">
+  <Card ID="10971912">
     <Name>Unravel</Name>
     <TextId>-1</TextId>
     <Artwork />
@@ -238,7 +237,7 @@
     <Chapter>7</Chapter>
   </Card>
 
-  <Card ID="13">
+  <Card ID="10971913">
     <Name>Horizon</Name>
     <TextId>-1</TextId>
     <Artwork />

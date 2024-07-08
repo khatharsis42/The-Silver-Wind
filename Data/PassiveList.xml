@@ -55,8 +55,7 @@
     <Cost>10</Cost>
     <Script />
     <Name>Furthest Reaches</Name>
-    <Desc>
-            At Emotion Level II, "Unravel" is added to hand, and its Cost is reduced by 3 for the turn.
+    <Desc>At Emotion Level II, "Unravel" is added to hand, and its Cost is reduced by 3 for the turn.
             At Emotion Level IV, "Horizon" is added to hand, and its Cost is reduced by 1 for the turn.
             The pages are also included in the deck at the start of subsequent Acts.
         </Desc>
@@ -72,7 +71,7 @@
     <Cost>7</Cost>
     <Script />
     <Name>Active Defense</Name>
-    <Desc> Gain a Counter die (4-8 Evade) at combat start. All Evade Counter dice gain "On Clash
+    <Desc>Gain a Counter die (4-8 Evade) at combat start. All Evade Counter dice gain "On Clash
             Win, inflict 1 Brand".</Desc>
   </Passive>
   <Passive ID="10971905">
@@ -131,7 +130,10 @@
     <Cost>10</Cost>
     <Script />
     <Name>Furthest Reaches</Name>
-    <Desc />
+    <Desc>At Emotion Level II, "Unravel" is added to hand, and its Cost is reduced by 3 for the turn.
+      At Emotion Level IV, "Horizon" is added to hand, and its Cost is reduced by 1 for the turn.
+      The pages are also included in the deck at the start of subsequent Acts.
+  </Desc>
   </Passive>
   <Passive ID="10971910">
     <Negative>false</Negative>
