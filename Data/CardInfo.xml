@@ -30,7 +30,7 @@
         EffectRes="" Script="" ActionScript="" Desc="" />
       <Behaviour Min="5" Dice="7" Type="Def" Detail="Evasion" Motion="E" MotionDefault="N"
         EffectRes="" Script="clashdraw1_max1" ActionScript=""
-        Desc="[On Clash Win]: Draw 1 Page (1 time)." />
+        Desc="" />
     </BehaviourList>
     <Chapter>7</Chapter>
   </Card>
@@ -42,15 +42,15 @@
     <Rarity>Rare</Rarity>
     <Spec Range="Near" Cost="3" Affection="One" EmotionLimit="0" />
     <Script>energy1ally2_draw1ally </Script>
-    <ScriptDesc>[On Use]: Restore 1 Light to 2 random allies. A random ally draws a page.</ScriptDesc>
+    <ScriptDesc/>
     <BehaviourList>
       <Behaviour Min="4" Dice="7" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N"
         EffectRes="" Script="" ActionScript="" Desc="" />
       <Behaviour Min="5" Dice="7" Type="Def" Detail="Evasion" Motion="E" MotionDefault="N"
         EffectRes="" Script="clashdraw1_max1" ActionScript=""
-        Desc="[On Clash Win]: Draw 1 Page (1 time)." />
+        Desc="" />
       <Behaviour Min="3" Dice="5" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N"
-        EffectRes="" Script="energy1atk" ActionScript="" Desc="[On Hit]: Restore 1 Light." />
+        EffectRes="" Script="energy1atk" ActionScript="" Desc="" />
     </BehaviourList>
     <Chapter>7</Chapter>
   </Card>
@@ -60,11 +60,9 @@
     <TextId>-1</TextId>
     <Artwork />
     <Rarity>Unique</Rarity>
-    <Spec Range="Near" Cost="0" Affection="One" EmotionLimit="0" />
+    <Spec Range="Instant" Cost="0" Affection="One" EmotionLimit="0" />
     <Script>retention</Script>
-    <ScriptDesc>[On Use]: Next scene, return the first combat page played this scene to hand
-      (excluding On-play, Single-Use, EGO and character-specific pages).
-    </ScriptDesc>
+    <ScriptDesc/>
     <BehaviourList />
     <Chapter>7</Chapter>
   </Card>
