@@ -60,7 +60,7 @@
     <TextId>-1</TextId>
     <Artwork />
     <Rarity>Unique</Rarity>
-    <Spec Range="Instant" Cost="0" Affection="One" EmotionLimit="0" />
+    <Spec Range="Instance" Cost="0" Affection="One" EmotionLimit="0" />
     <Script>retention</Script>
     <ScriptDesc/>
     <BehaviourList />
