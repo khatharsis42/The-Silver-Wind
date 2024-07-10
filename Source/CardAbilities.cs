@@ -1,4 +1,6 @@
 ﻿using HarmonyLib;
+using HyperCard;
+using LOR_XML;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -85,19 +87,12 @@ namespace LOR_Mawan_Mod
     {
         public static string Desc = "[On Clash Win] Draw 1 Page (1 time).";
         public new string[] Keywords = { "DrawCard_Keyword" };
-        
+
         bool hasAlreadyRolled = false;
         public override void OnWinParryingDefense()
         {
-
-            if (!hasAlreadyRolled)
-            {
-                FileLog.Log("Using ability: clashdraw1_max1");
-                this.owner.allyCardDetail.DrawCards(1);
-            } else {
-            FileLog.Log("Can't use ability: clashdraw1_max1");
-                hasAlreadyRolled = true;
-            }
+            this.owner.allyCardDetail.DrawCards(1);
+            behavior.abilityList.Remove(this);
         }
     }
     public class DiceCardSelfAbility_energy1ally2_draw1ally : DiceCardSelfAbility_energy1ally2
@@ -124,13 +119,23 @@ namespace LOR_Mawan_Mod
             base.OnUseCard(card);
             if (cardToDraw != null || card.card.XmlData.IsEgo() || card.card.XmlData.IsPersonal() || card.card.XmlData.IsExhaustOnUse())
                 return;
+            FileLog.Log("Retention activating on " + card.card.GetName() + "/" + card.card.GetTextId() + "/" + card.card.GetHashCode());
             cardToDraw = card.card;
         }
         public override void OnRoundEnd()
         {
             base.OnRoundEnd();
-            _owner.allyCardDetail.AddCardToHand(cardToDraw);
-            // FIXME This creates copy of our card, I think ?
+            FileLog.Log("Retention: Returning card to hand: " + cardToDraw.GetName() + "/" + cardToDraw.GetTextId() + "/" + cardToDraw.GetHashCode());
+            var cardToMove = _owner.allyCardDetail._cardInUse.Find(match => match == cardToDraw);
+            if (cardToMove != null)
+            {
+                FileLog.Log("Retention: Found by reference in _cardInUse");
+            }
+            else cardToMove = _owner.allyCardDetail._cardInUse.Find(match => match.GetID() == cardToDraw.GetID());
+            _owner.allyCardDetail._cardInUse.Remove(cardToMove);
+            FileLog.Log("Removed card from _cardInUse.");
+            _owner.allyCardDetail._cardInHand.Add(cardToMove);
+            _owner.bufListDetail.RemoveBuf(this);
         }
     }
 
