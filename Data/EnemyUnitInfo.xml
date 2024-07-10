@@ -2,7 +2,7 @@
 <EnemyUnitClassRoot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Version>1.1</Version>
   <Enemy ID="1">
-    <Name>The Silver Wind</Name>
+    <Name>The_Silver_Wind</Name>
     <FaceType>Skin</FaceType>
     <NameID>-1</NameID>
     <MinHeight>165</MinHeight>

@@ -2,7 +2,7 @@
 <BookXmlRoot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Version>1.1</Version>
   <Book ID="1">
-    <Name>The Silver Wind</Name>
+    <Name>KeyPage_The_Silver_Wind</Name>
     <TextId>-1</TextId>
     <BookIcon />
     <EquipEffect>
